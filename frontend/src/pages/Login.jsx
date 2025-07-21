@@ -64,20 +64,20 @@ function Login() {
 export default Login;
 
 const pageStyle = {
-  backgroundColor: '#121212',
+  backgroundColor: '#ffffff', // white background
   minHeight: '100vh',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   fontFamily: 'Segoe UI',
-  color: '#fff'
+  color: '#003366' // deep blue text (professional tone)
 };
 
 const formStyle = {
-  backgroundColor: '#1e1e1e',
+  backgroundColor: '#f5faff', // very light blue-gray
   padding: '40px',
   borderRadius: '12px',
-  boxShadow: '0 2px 10px rgba(0, 0, 0, 0.4)',
+  boxShadow: '0 2px 12px rgba(0, 51, 102, 0.2)', // soft blue shadow
   display: 'flex',
   flexDirection: 'column',
   width: '100%',
@@ -87,14 +87,14 @@ const formStyle = {
 const titleStyle = {
   textAlign: 'center',
   marginBottom: '30px',
-  color: 'rgba(212, 149, 227, 1)',
+  color: '#0078d7', // strong Sansera blue
   fontSize: '1.8rem'
 };
 
 const inputStyle = {
-  backgroundColor: '#2c2c2c',
-  color: '#f0f0f0',
-  border: '1px solid #444',
+  backgroundColor: '#ffffff',
+  color: '#003366',
+  border: '1px solid #0078d7',
   borderRadius: '8px',
   padding: '12px',
   marginBottom: '20px',
@@ -102,8 +102,8 @@ const inputStyle = {
 };
 
 const buttonStyle = {
-  backgroundColor: 'rgba(212, 149, 227, 1)',
-  color: '#121212',
+  backgroundColor: '#0078d7', // brand-aligned blue
+  color: '#ffffff',
   padding: '12px',
   border: 'none',
   borderRadius: '8px',
@@ -115,6 +115,6 @@ const buttonStyle = {
 const brandText = {
   fontSize: '2.4rem',
   fontWeight: 'bold',
-  color: '#61dafb',
+  color: '#0078d7',
   letterSpacing: '1.5px',
 };
