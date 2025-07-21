@@ -11,6 +11,7 @@
 //   const handleLogout = () => {
 //     logout();
 //     navigate('/');
+console.log("hi"); 
 //   };
 
 //   return (
