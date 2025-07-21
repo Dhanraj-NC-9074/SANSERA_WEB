@@ -29,7 +29,7 @@ export default function Dashboard() {
   <div style={pageStyle}>
     <div style={brandingContainer}>
       <h1 style={brandText}>SANSERA</h1>
-      <img src="src/pages/logo.png" alt="Logo" style={logoStyle} />
+      <img src="/logo.png" alt="Logo" style={logoStyle} />
     </div>
 
     <h2 style={headingStyle}>📊 Dashboard</h2>
